@@ -45,3 +45,25 @@
     background-color: white;
     color: #ff7779;
 }
+@media only screen and (max-width: 450px){
+    .search{
+        align-items: center;
+        left: 0%;
+        z-index: 9999;
+    }
+    .search > button
+    {
+        width: auto;
+    }
+    .rdrDateRangePickerWrapper{
+        width: fit-content;
+        z-index: 100;
+    }
+    .rdrDateRangePickerWrapper{
+        flex-direction: column;
+    }
+}
+/* 
+img-100%
+searchesult display flex
+flexdirection coloumn */

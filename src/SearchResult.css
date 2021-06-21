@@ -77,3 +77,13 @@
     color: red !important;
     cursor: pointer;
 }
+@media only screen and (max-width: 450px){
+    .searchResult{
+        display: flex;
+        flex-direction: column;
+    }
+    .searchResult> img{
+        width: 100%;
+    }
+    
+}

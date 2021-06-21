@@ -43,3 +43,19 @@
 .banner__info > h5 {
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 450px){
+  .banner__info{
+        margin-top: 155px;
+        width: 310px;
+        padding-top: 0;
+        padding-bottom: 5px;
+      }
+      .banner__info > button{
+        z-index: 1;
+      }
+      .banner{
+        width: fit-content;
+      }
+    } 
+    
